@@ -5,11 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Include material design icons-->
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- include stylesheet from material design -->
-    <!-- include javascript needed for material design -->
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
 
@@ -20,7 +17,7 @@
 <body>
 <div class="Body2">
 
-    <input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="0" tabindex="0" id="progress_bar">
+    <input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="0" tabindex="0" id="progress_bar" oninput="myFunction(this.value)">
     <header>
         <h1 class="name">Khrystyna<br/>GORBACHOVA</h1>
         <ul class="NAV">
